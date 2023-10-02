@@ -4,15 +4,17 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("Part1");
-        // Lägg en ‘try catch’ som kollar om det går att dividera med 0!
+        System.out.println("Part2");
+        //Försök nu att:
+        //Krascha programmet med en for loop!
+        //Med en if-sats
+        //Med extra måsvingar, parenteser och andra symboler!
 
-        try{
-            System.out.println(6/0);
-        }catch (Exception error) {
-
-        }
-
+        for (int i = 0; i < 5; i++) {
+            if(i>1) {
+                System.out.println(i+1);
+            }
+        }}
 
 
     }
